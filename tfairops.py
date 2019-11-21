@@ -5,7 +5,7 @@ from __future__ import print_function
 import tensorflow as tf
 t1 = tf.constant([[5, 10, 15], [4, 8, 12], [6, 12, 18]])
 t2 = tf.constant([[5, 5, 5], [2, 2, 2], [3, 3, 3]])
-tensor_sum = tf.add(t1, t2)  # Add two tensors.
+tensor_sum = tf.addition(t1, t2)  # Add two tensors.
 tensor_sub = tf.subtract(t1, t2)  # Subtract two tensors.
 tensor_mul = tf.multiply(t1, t2)  # Multiples two tensors.
 tensor_divide = tf.divide(t1, t2)  # Divides two tensors without roundoff.
